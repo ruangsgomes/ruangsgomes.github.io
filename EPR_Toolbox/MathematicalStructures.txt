@@ -1,0 +1,27 @@
+---------- Display the selected equations of the Cross-validation batches ----------
+EPR algorithm: CrosMonteCarlo MODEGA with optimum length
+ Pop = Exponent values
+ Par = bias + terms values
+Number of batches =               5
+Number of terms (a0 + aj) =       4
+Number variables (X) =            3
+--------------------------------------------
+Cross-val Batch =      1
+       Pop =  0.00  0.00  0.80  0.00  0.00  0.40  1.80 -0.40  0.00              
+      Par =   -7.20-1087098.064619.16 69.94              
+--------------------------------------------
+Cross-val Batch =      2
+       Pop =  0.00  0.00 -0.10  0.00  0.00 -0.90  1.00 -0.30  0.00              
+      Par =    4.84 -1.62  0.00 22.06              
+--------------------------------------------
+Cross-val Batch =      3
+       Pop =  0.00  0.00 -0.50  0.00  0.00 -0.20  1.30 -0.30  0.00              
+      Par =    1.64  0.00 -0.21 30.25              
+--------------------------------------------
+Cross-val Batch =      4
+       Pop =  0.00  0.00  1.90  0.00  0.00  0.20  1.40 -0.40  0.00              
+      Par =   -8.78-4209765092733.48155.09 46.86              
+--------------------------------------------
+Cross-val Batch =      5
+       Pop =  0.00  0.00  0.10  2.00  0.00  0.00  0.00 -0.20  0.00              
+      Par =  -13.52 47.53 19.49  3.01              

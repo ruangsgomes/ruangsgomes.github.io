@@ -1,0 +1,240 @@
+---------- Model selection output file ----------
+algorithm: MonteCarlo MODEGA with optimum length
+Summary statistics of sensitivity
+--------------------------------------------
+ Parameter = 1.0000
+--------- R^2 ---------
+        Max= 0.9996
+        Min= 0.8778
+       Mean= 0.9762
+  Std. dev.= 0.0370
+--------- RMSE ---------
+        Max= 0.1005
+        Min= 0.0057
+       Mean= 0.0357
+  Std. dev.= 0.0279
+--------- Best Model ---------
+        R^2= 0.9996
+       RMSE= 0.0057
+--------------------------------------------
+ Parameter = 2.0000
+--------- R^2 ---------
+        Max= 0.9983
+        Min= 0.0790
+       Mean= 0.8696
+  Std. dev.= 0.2794
+--------- RMSE ---------
+        Max= 0.1483
+        Min= 0.0063
+       Mean= 0.0408
+  Std. dev.= 0.0401
+--------- Best Model ---------
+        R^2= 0.9964
+       RMSE= 0.0092
+--------------------------------------------
+ Parameter = 3.0000
+--------- R^2 ---------
+        Max= 0.9965
+        Min= 0.9128
+       Mean= 0.9816
+  Std. dev.= 0.0284
+--------- RMSE ---------
+        Max= 0.2384
+        Min= 0.0475
+       Mean= 0.0898
+  Std. dev.= 0.0662
+--------- Best Model ---------
+        R^2= 0.9948
+       RMSE= 0.0583
+---------- Model selection output file ----------
+algorithm: MonteCarlo MODEGA with optimum length
+Summary statistics of sensitivity
+--------------------------------------------
+ Parameter = 1.0000
+--------- R^2 ---------
+        Max= 0.9954
+        Min= 0.9407
+       Mean= 0.9822
+  Std. dev.= 0.0169
+--------- RMSE ---------
+        Max= 0.0778
+        Min= 0.0217
+       Mean= 0.0391
+  Std. dev.= 0.0178
+--------- Best Model ---------
+        R^2= 0.9924
+       RMSE= 0.0279
+--------------------------------------------
+ Parameter = 2.0000
+--------- R^2 ---------
+        Max= 0.9930
+        Min= 0.8650
+       Mean= 0.9539
+  Std. dev.= 0.0411
+--------- RMSE ---------
+        Max= 0.0724
+        Min= 0.0165
+       Mean= 0.0389
+  Std. dev.= 0.0175
+--------- Best Model ---------
+        R^2= 0.9733
+       RMSE= 0.0322
+--------------------------------------------
+ Parameter = 3.0000
+--------- R^2 ---------
+        Max= 0.9968
+        Min= 0.9602
+       Mean= 0.9844
+  Std. dev.= 0.0150
+--------- RMSE ---------
+        Max= 0.1608
+        Min= 0.0455
+       Mean= 0.0892
+  Std. dev.= 0.0490
+--------- Best Model ---------
+        R^2= 0.9968
+       RMSE= 0.0455
+---------- Model selection output file ----------
+algorithm: MonteCarlo MODEGA with optimum length
+Summary statistics of sensitivity
+--------------------------------------------
+ Parameter = 1.0000
+--------- R^2 ---------
+        Max= 0.9987
+        Min= 0.9869
+       Mean= 0.9940
+  Std. dev.= 0.0048
+--------- RMSE ---------
+        Max= 0.0373
+        Min= 0.0117
+       Mean= 0.0233
+  Std. dev.= 0.0099
+--------- Best Model ---------
+        R^2= 0.9977
+       RMSE= 0.0155
+--------------------------------------------
+ Parameter = 2.0000
+--------- R^2 ---------
+        Max= 0.9766
+        Min= 0.2425
+       Mean= 0.7949
+  Std. dev.= 0.2923
+--------- RMSE ---------
+        Max= 0.1337
+        Min= 0.0235
+       Mean= 0.0578
+  Std. dev.= 0.0409
+--------- Best Model ---------
+        R^2= 0.9282
+       RMSE= 0.0412
+--------------------------------------------
+ Parameter = 3.0000
+--------- R^2 ---------
+        Max= 0.9987
+        Min= 0.9832
+       Mean= 0.9937
+  Std. dev.= 0.0060
+--------- RMSE ---------
+        Max= 0.1053
+        Min= 0.0293
+       Mean= 0.0587
+  Std. dev.= 0.0287
+--------- Best Model ---------
+        R^2= 0.9987
+       RMSE= 0.0293
+---------- Model selection output file ----------
+algorithm: MonteCarlo MODEGA with optimum length
+Summary statistics of sensitivity
+--------------------------------------------
+ Parameter = 1.0000
+--------- R^2 ---------
+        Max= 0.9994
+        Min= 0.8238
+       Mean= 0.9743
+  Std. dev.= 0.0530
+--------- RMSE ---------
+        Max= 0.1248
+        Min= 0.0075
+       Mean= 0.0368
+  Std. dev.= 0.0318
+--------- Best Model ---------
+        R^2= 0.9929
+       RMSE= 0.0250
+--------------------------------------------
+ Parameter = 2.0000
+--------- R^2 ---------
+        Max= 0.9931
+        Min= 0.7184
+       Mean= 0.9086
+  Std. dev.= 0.0815
+--------- RMSE ---------
+        Max= 0.0828
+        Min= 0.0130
+       Mean= 0.0430
+  Std. dev.= 0.0205
+--------- Best Model ---------
+        R^2= 0.9802
+       RMSE= 0.0220
+--------------------------------------------
+ Parameter = 3.0000
+--------- R^2 ---------
+        Max= 0.9972
+        Min= 0.9665
+       Mean= 0.9832
+  Std. dev.= 0.0115
+--------- RMSE ---------
+        Max= 0.1511
+        Min= 0.0438
+       Mean= 0.0997
+  Std. dev.= 0.0414
+--------- Best Model ---------
+        R^2= 0.9972
+       RMSE= 0.0438
+---------- Model selection output file ----------
+algorithm: MonteCarlo MODEGA with optimum length
+Summary statistics of sensitivity
+--------------------------------------------
+ Parameter = 1.0000
+--------- R^2 ---------
+        Max= 0.9979
+        Min= 0.9868
+       Mean= 0.9944
+  Std. dev.= 0.0039
+--------- RMSE ---------
+        Max= 0.0387
+        Min= 0.0155
+       Mean= 0.0238
+  Std. dev.= 0.0086
+--------- Best Model ---------
+        R^2= 0.9979
+       RMSE= 0.0155
+--------------------------------------------
+ Parameter = 2.0000
+--------- R^2 ---------
+        Max= 0.9971
+        Min= 0.9506
+       Mean= 0.9865
+  Std. dev.= 0.0148
+--------- RMSE ---------
+        Max= 0.0354
+        Min= 0.0085
+       Mean= 0.0165
+  Std. dev.= 0.0088
+--------- Best Model ---------
+        R^2= 0.9971
+       RMSE= 0.0085
+--------------------------------------------
+ Parameter = 3.0000
+--------- R^2 ---------
+        Max= 0.9977
+        Min= 0.9620
+       Mean= 0.9911
+  Std. dev.= 0.0123
+--------- RMSE ---------
+        Max= 0.1631
+        Min= 0.0406
+       Mean= 0.0675
+  Std. dev.= 0.0435
+--------- Best Model ---------
+        R^2= 0.9977
+       RMSE= 0.0406

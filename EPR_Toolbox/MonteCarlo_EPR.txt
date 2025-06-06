@@ -1,0 +1,29 @@
+---------- MonteCarlo MODEGA Toolbox output file ----------
+--------------------------------------
+algorithm: DEGA
+EPR terms (+ bias) =   4.00
+Best model No. =   3.00
+Best population
+  0.00  0.00  0.80
+  0.00  0.00  0.40
+  1.80 -0.40  0.00
+Best parameters
+-7.198906 
+-1087098.055233 
+4619.160728 
+69.937594 
+--------------------------------------
+Calibration statistics
+       R^2 =  0.907
+      RMSE =  0.358
+       MAE =  0.290
+         r =  0.952
+     E_rel =  0.865
+--------------------------------------
+Evaluation statistics
+       R^2 =  0.876
+      RMSE =  0.390
+       MAE =  0.304
+         r =  0.937
+     E_rel =  0.852
+--------------------------------------

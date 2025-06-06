@@ -1,0 +1,72 @@
+This variant of the Evolutionary Polynomial Regression methodology has been develop following the publications:
+	a-https://doi.org/10.1007/s00366-021-01313-x
+	b-https://doi.org/10.1016/j.engappai.2022.105421
+	c-https://doi.org/10.1007/s10706-024-03005-x
+
+
+This document provides a summary of the program capabilities as well as tips on how to handle input data and interpret output data. 
+
+-------------------------------- 1. General overview --------------------------------
+
+In our computational code we first run the EPR MODE, MOGA and MODEGA. These different algorithms discussed in paper (a) uses different optimization strategies along compromise programing to determine an ideal polynomial length (i.e., number of terms). Then the code performs the MODEGA-SD using Monte Carlo simulations to derive w optimal models. Details about this extension in the algorithm is given in paper (b). While conducting Monte Carlo simulations, the MODEGA-SD program analyzes k parametric responses of the w models. During this analysis, our hypothesis is that the average of the parametric simulations for each variable (see Figure 2 in paper 2) holds physical significance for the real system, given that the w models exhibit good predictive capability. The question then arises: which of the w models should be selected? The answer lies in the model where the parametric response consistently approximates the average for all k independent variables. In our paper 2 (Figure 2), the model w, marked with a green checkmark, indicates the selected model. It is important to note that our EPR's primary goal is not to achieve a model with the best data fit but rather a model that consistently better represents the phenomenon through sensitivity analysis. Therefore, other machine learning techniques may yield a better R2 (better fit), but our objective here is different. Finally we test MODEGA-SD using cross validation to evaluate the performance of the algorithm and data given different training and testing sets. This was addressed in the paper (c).
+
+
+--------------------------------2. Handling the code --------------------------------
+
+The main file that needs to be executed is the "Run_EPR.m" file. So, open the file. 
+
+Input data:
+Line 72: You may want to change the names of your variables, starting with the dependent one and then the independent ones. For example, we are modeling the variable K as a function of five (or as many as you wish) others.
+ 
+Names ={'K' '$\Phi$' 'F' 'dPT' 'dPore' 'dGrain'};
+ 
+Lines 74-108:
+You can read data from a .mat or Excel file. We will provide an example assuming your file is in Excel format. When it comes to splitting the data into training and testing, you have two options: (1) you provide the training and testing data (if you want to benchmark with another simulation), or (2) we randomly split the data, with 75% for training and the rest for testing (see lines 74 to 108 of the code).
+ 
+Line 109: Algorithmic parameters involve parameters of the EPR and the search engines (genetic algorithm and differential evolution). By reading the articles, you can easily understand the function of each algorithmic parameter. It's worth noting the number of generations (DE.last). The number of generations depends on your study and can vary. In some problems, 200 generations are sufficient, but in other cases, I've needed 800 generations for good convergence of statistical metrics.
+ 
+Line 120: Another EPR parameter is the maximum number of polynomial terms (DE.max). If DE.max is set too high, EPR simulations will have a high computational burden. My suggestion is to keep the default parameters since we haven't conducted extensive research on how algorithmic parameters affect the models produced.
+ 
+Line 153: You can specify the number of Monte Carlo simulations you want to perform. I set it to 10 to speed things up, but I recommend changing it to 100.
+
+Line 157-159: you can include cross validation and the number you would like
+ 
+-------------------------------- 3. Output Data --------------------------------
+
+Fig 1: Evolution of statistical metrics for models with different numbers of polynomial terms (m). The black curve represents MODEGA-SD, and the optimal number of polynomial terms is represented with a black mark.
+Fig 2: Monitoring the sum of residual errors, the number of variables in the model (less is better), and the contribution of each of the search engines in producing offspring over generations.
+Fig 3: Simulated versus observed plots for training and testing. These graphs represent the fit considering the optimal number of polynomial terms. This result is subsequently refined with Monte Carlo simulations.
+Fig 4: Monitoring the sum of residual errors and the contribution of each of the search engines in producing descendants over Monte Carlo simulations.
+Fig 5/6: Tracking statistical metrics of the models throughout Monte Carlo simulations.
+Fig 7: Simulated versus observed plots for training and testing (final model).
+Figs 8 and onwards: Sensitivity analysis considering the confidence intervals. The solid black curve represents the behavior of the model derived by the MODEGA-SD program.
+Fig 11-14: the cross validation analysis
+
+Statistics: The program generates several txt files, such as MonteCarlo_EPR.txt, where you can view statistics for the optimal model in training and testing, and the EPR equation is stored.
+ 
+The "Run_post_proc.m" file retrieves the generated figures and equations.
+
+Final remarks:
+In the interpretation of results, if the uncertainty of the dependent variable in the sensitivity analysis is significant for a specific independent variable, this should trigger a reflection. It might indicate uncertainty within a particular range of values or suggest that this independent variable does not effectively explain the process. In such cases, it may be worthwhile to consider removing this independent variable from the dataset and rerunning the EPR.
+Another way to identify potential independent variables that do not adequately explain the phenomenon is to examine the equation. When independent variables are associated with low values of 'a' (regression parameters), it could imply that these variables are merely contributing noise to the modeling.
+ 
+At the end of the simulations, the final equation is displayed in the MATLAB command window. See below:
+.....................................................
+Equation (MODEGA-SD)
+ 
+-12.255692480001 +
+47.924133661942 * [x1^(0.0)*x2^(0.0)*x3^(0.1)] +
+80.842334259471 * [x1^(1.9)*x2^(-0.4)*x3^(0.0)]
+......................................................
+For this example, the final EPR equation is:
+Y = -12.25 + 47.92*X3^(0.1) + 80.84*X1^(1.9)*X2^(-0.4)
+Note that the three independent variables (X1, X2, X3) appear in the model only once. This is one of the features of our approach. We favor more parsimonious models to enhance their generalization capability in sensitivity analysis.
+ 
+-------------------------------- 4. Conclusion --------------------------------
+
+This concludes the description of the EPR code. If you have any questions or need further assistance, please reach out to the following emails.
+
+Guilherme Jose Cunha Gomes: guilhermejcg@ufop.edu.br
+Ruan Goncalves de Souza Gomes: ruan_gomes93@hotmail.com
+
+

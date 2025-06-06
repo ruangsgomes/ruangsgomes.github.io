@@ -1,0 +1,434 @@
+---------- MODEGA-EPR Toolbox output file ----------
+  algorithm:
+        MODE
+ EPR terms =   2.00
+Best population
+  0.00   0.00   0.10
+Best parameters
+-12.698395 
+54.604401 
+  Statistics
+       R^2 =   0.83
+      RMSE =   0.48
+       MAE =   0.37
+         r =   0.91
+       SSE =   0.23
+     E_rel =   0.71
+--------------------
+  algorithm:
+        MOGA
+ EPR terms =   2.00
+Best population
+  0.20   0.00   0.10
+Best parameters
+-11.390905 
+65.963353 
+  Statistics
+       R^2 =   0.88
+      RMSE =   0.40
+       MAE =   0.33
+         r =   0.94
+       SSE =   0.16
+     E_rel =   0.84
+--------------------
+  algorithm:
+      MODEGA
+ EPR terms =   2.00
+Best population
+  0.10   0.00   0.10
+Best parameters
+-12.133830 
+60.853731 
+  Statistics
+       R^2 =   0.88
+      RMSE =   0.41
+       MAE =   0.34
+         r =   0.94
+       SSE =   0.17
+     E_rel =   0.81
+--------------------
+  algorithm:
+        MODE
+ EPR terms =   3.00
+Best population
+  0.00   0.00   0.10
+  1.60   0.00   0.00
+Best parameters
+-12.441351 
+47.437434 
+14.295097 
+  Statistics
+       R^2 =   0.89
+      RMSE =   0.39
+       MAE =   0.33
+         r =   0.94
+       SSE =   0.15
+     E_rel =   0.84
+--------------------
+  algorithm:
+        MOGA
+ EPR terms =   3.00
+Best population
+  0.00   0.00   1.30
+  0.30  -0.10   0.30
+Best parameters
+-7.020447 
+-1148039399.139025 
+1886.830574 
+  Statistics
+       R^2 =   0.90
+      RMSE =   0.36
+       MAE =   0.29
+         r =   0.95
+       SSE =   0.13
+     E_rel =   0.87
+--------------------
+  algorithm:
+      MODEGA
+ EPR terms =   3.00
+Best population
+  0.00   0.00   0.10
+  1.90  -0.40   0.00
+Best parameters
+-12.255692 
+47.924134 
+80.842334 
+  Statistics
+       R^2 =   0.90
+      RMSE =   0.37
+       MAE =   0.30
+         r =   0.95
+       SSE =   0.14
+     E_rel =   0.85
+--------------------
+  algorithm:
+        MODE
+ EPR terms =   4.00
+Best population
+ -1.50   0.00   0.00
+  0.00   0.00   0.10
+  0.50  -0.10   0.00
+Best parameters
+-15.772893 
+0.033407 
+48.327268 
+12.880182 
+  Statistics
+       R^2 =   0.90
+      RMSE =   0.37
+       MAE =   0.30
+         r =   0.95
+       SSE =   0.14
+     E_rel =   0.85
+--------------------
+  algorithm:
+        MOGA
+ EPR terms =   4.00
+Best population
+  1.40  -0.20   0.00
+  0.10   0.00  -0.10
+  0.00   0.00  -1.20
+Best parameters
+4.101251 
+35.846138 
+-1.815377 
+0.000000 
+  Statistics
+       R^2 =   0.92
+      RMSE =   0.34
+       MAE =   0.27
+         r =   0.96
+       SSE =   0.12
+     E_rel =   0.87
+--------------------
+  algorithm:
+      MODEGA
+ EPR terms =   4.00
+Best population
+  0.00   0.00   0.50
+  1.80  -0.40   0.00
+  0.00   0.00   0.60
+Best parameters
+-7.120791 
+62033.398432 
+69.788701 
+-239520.501204 
+  Statistics
+       R^2 =   0.91
+      RMSE =   0.36
+       MAE =   0.29
+         r =   0.95
+       SSE =   0.13
+     E_rel =   0.87
+--------------------
+  algorithm:
+        MODE
+ EPR terms =   5.00
+Best population
+  0.00   0.30   0.20
+  0.50   0.00   0.00
+  0.00   0.00   0.20
+ -1.20  -0.10   2.00
+Best parameters
+-10.299440 
+-12.199193 
+5.062019 
+205.791322 
+-5719311494694.150391 
+  Statistics
+       R^2 =   0.90
+      RMSE =   0.36
+       MAE =   0.29
+         r =   0.95
+       SSE =   0.13
+     E_rel =   0.88
+--------------------
+  algorithm:
+        MOGA
+ EPR terms =   5.00
+Best population
+  0.00   0.00  -1.10
+  0.00   0.00   0.30
+  1.40  -0.30   0.00
+  0.00   0.00  -0.10
+Best parameters
+4.755830 
+0.000000 
+3.359014 
+31.468803 
+-1.539404 
+  Statistics
+       R^2 =   0.91
+      RMSE =   0.34
+       MAE =   0.28
+         r =   0.96
+       SSE =   0.12
+     E_rel =   0.87
+--------------------
+  algorithm:
+      MODEGA
+ EPR terms =   5.00
+Best population
+  0.00   0.00  -0.40
+  1.00   0.20   0.00
+  0.00   0.00  -0.30
+  2.00   0.00   0.00
+Best parameters
+1.833252 
+0.005134 
+-3.692651 
+-0.055058 
+39.547635 
+  Statistics
+       R^2 =   0.91
+      RMSE =   0.34
+       MAE =   0.28
+         r =   0.96
+       SSE =   0.12
+     E_rel =   0.87
+--------------------
+  algorithm:
+        MODE
+ EPR terms =   6.00
+Best population
+  0.00   0.00  -0.40
+  0.00   0.00  -0.50
+ -1.00   0.50  -0.50
+  1.00  -0.20   0.00
+  0.00  -1.20  -0.30
+Best parameters
+-1.343910 
+-0.007032 
+0.000673 
+0.000001 
+17.629283 
+0.037998 
+  Statistics
+       R^2 =   0.91
+      RMSE =   0.35
+       MAE =   0.27
+         r =   0.96
+       SSE =   0.12
+     E_rel =   0.86
+--------------------
+  algorithm:
+        MOGA
+ EPR terms =   6.00
+Best population
+  1.80   0.00   0.10
+  0.00   0.30  -0.10
+  0.00   0.20   0.00
+  0.00   0.70  -0.70
+  0.00   0.00  -0.40
+Best parameters
+-3.305923 
+84.109012 
+-0.326133 
+2.868284 
+0.000000 
+-0.000920 
+  Statistics
+       R^2 =   0.92
+      RMSE =   0.34
+       MAE =   0.27
+         r =   0.96
+       SSE =   0.11
+     E_rel =   0.88
+--------------------
+  algorithm:
+      MODEGA
+ EPR terms =   6.00
+Best population
+  0.00   0.00  -0.20
+  0.00   0.40   0.00
+  1.00   0.00   0.00
+  1.20   0.00   0.00
+  0.00   0.00  -0.60
+Best parameters
+4.773982 
+-0.182354 
+-0.143143 
+-90.493563 
+113.532265 
+0.000015 
+  Statistics
+       R^2 =   0.91
+      RMSE =   0.34
+       MAE =   0.28
+         r =   0.96
+       SSE =   0.12
+     E_rel =   0.88
+            
+---------- Tabelas publicacao ----------
+Statistics of variables used in the database:
+min, max, mean and standard deviation
+-5.7174 -0.7321 -3.6441 1.1634
+0.1070 0.2650 0.1792 0.0373
+17.0000 159.0000 61.1172 27.1362
+0.0000 0.0000 0.0000 0.0000
+            
+Summary of five indicators for the optimal model on training and testing data:
+            
+Statistics of the optimal models
+      MODEGA         MOGA         MODE
+Training     Test Training     Test Training     Test
+ 4.000 &  4.000 &  4.000 &  4.000 &  3.000 &  3.000
+ 0.907 &  0.875 &  0.915 &  0.874 &  0.888 &  0.845
+ 0.357 &  0.390 &  0.341 &  0.392 &  0.392 &  0.435
+ 0.952 &  0.937 &  0.957 &  0.936 &  0.942 &  0.923
+ 0.866 &  0.850 &  0.873 &  0.826 &  0.844 &  0.790
+            
+Results of the multi-objective analyses:
+2 &   4.00 &   2.00 &   1.59 &   1.00 & &   4.00 &   2.00 &   1.59 &   1.00\\
+3 &   1.78 &   0.81 &   0.63 &   0.42 & &   1.80 &   0.81 &   0.63 &   0.40\\
+4 &   1.26 &   0.63 &   0.54 &   0.50 & &   0.89 &   0.56 &   0.52 &   0.50\\
+5 &   0.77 &   0.75 &   0.75 &   0.75 & &   1.37 &   0.83 &   0.77 &   0.75\\
+6 &   1.02 &   1.00 &   1.00 &   1.00 & &   1.00 &   1.00 &   1.00 &   1.00\\
+---------- MO_DE_EPR Toolbox output file ----------
+algorithm: DEGA
+ EPR terms =   2.00
+Best population
+  0.10   0.00   0.10 
+Best parameters
+-12.133830 
+60.853731 
+  Statistics
+       R^2 =   0.88
+      RMSE =   0.41
+       MAE =   0.34
+         r =   0.94
+     E_rel =   0.81
+---------- MO_DE_EPR Toolbox output file ----------
+algorithm: DEGA
+ EPR terms =   3.00
+Best population
+  0.00   0.00   0.10 
+  1.90  -0.40   0.00 
+Best parameters
+-12.255692 
+47.924134 
+80.842334 
+  Statistics
+       R^2 =   0.90
+      RMSE =   0.37
+       MAE =   0.30
+         r =   0.95
+     E_rel =   0.85
+---------- MO_DE_EPR Toolbox output file ----------
+algorithm: DEGA
+ EPR terms =   4.00
+Best population
+  0.00   0.00   0.50 
+  1.80  -0.40   0.00 
+  0.00   0.00   0.60 
+Best parameters
+-7.120791 
+62033.398432 
+69.788701 
+-239520.501204 
+  Statistics
+       R^2 =   0.91
+      RMSE =   0.36
+       MAE =   0.29
+         r =   0.95
+     E_rel =   0.87
+---------- MO_DE_EPR Toolbox output file ----------
+algorithm: DEGA
+ EPR terms =   5.00
+Best population
+  0.00   0.00  -0.40 
+  1.00   0.20   0.00 
+  0.00   0.00  -0.30 
+  2.00   0.00   0.00 
+Best parameters
+1.833252 
+0.005134 
+-3.692651 
+-0.055058 
+39.547635 
+  Statistics
+       R^2 =   0.91
+      RMSE =   0.34
+       MAE =   0.28
+         r =   0.96
+     E_rel =   0.87
+---------- MO_DE_EPR Toolbox output file ----------
+algorithm: DEGA
+ EPR terms =   6.00
+Best population
+  0.00   0.00  -0.20 
+  0.00   0.40   0.00 
+  1.00   0.00   0.00 
+  1.20   0.00   0.00 
+  0.00   0.00  -0.60 
+Best parameters
+4.773982 
+-0.182354 
+-0.143143 
+-90.493563 
+113.532265 
+0.000015 
+  Statistics
+       R^2 =   0.91
+      RMSE =   0.34
+       MAE =   0.28
+         r =   0.96
+     E_rel =   0.88
+---------- MO_DE_EPR Toolbox output file ----------
+algorithm: DEGA
+ EPR terms =   4.00
+Best population
+  0.00   1.80   0.00 
+  0.00  -0.40   0.00 
+  0.50   0.00   0.60 
+Best parameters
+-7.120791 
+62033.398432 
+69.788701 
+-239520.501204 
+  Statistics
+       R^2 =   0.91
+      RMSE =   0.36
+       MAE =   0.29
+         r =   0.95
+     E_rel =   0.87
